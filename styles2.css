@@ -1,0 +1,80 @@
+body {
+ 
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff; 
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  margin: 50px auto;
+  border-radius: 15px;
+  text-align: center;
+  width: 400px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  text-align: left;
+  font-weight: 500;
+}
+
+input, select {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  background-color: #d8d8d8;
+}
+
+button {
+  background-color: #00c320;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #07710f;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 0.9em;
+}
+
+th, td {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 8px;
+}
+
+th {
+  background-color: rgba(133, 133, 133, 0.2);
+}
